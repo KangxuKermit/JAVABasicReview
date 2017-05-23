@@ -46,7 +46,16 @@ class Person {
 	 * 		静态方法只能访问静态的成员，不能访问非静态
 	 * 在工具类中static修饰的方法，可以被类直接调用，类似iOS中的类方法，
 	 * 如果工具类中所有的方法都静态的，需要加上私有构造方法，防止类创建对象失败，不让其他类创建本工具类对象 
+	 * 
+	 * 
+	 * final		命名规范：NAME MAX_VALUE BTN_WIDTH
+	 * 	修饰类，类不能被继承
+	 * 	修饰变量，变量就变成了常量，只能被赋值一次		// final String NAME = "Kermit"
+	 * 	修饰方法，方法不能被重写
+	 * 		一般使用方式：public static final double PI = 3.14;	// 搭配 public static
+	 * 	final 修饰引用数据类型，地址值不能被改变，但对象中的属性可以改变
 	 * 		
+	 * 	修饰变量的初始化时机：显示初始化，在对象初始化完毕之前（构造初始化）
 	 **/ 
 	String name;
 	static String country;
