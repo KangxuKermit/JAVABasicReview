@@ -1,5 +1,7 @@
 package com.kermit.sort;
 
+import java.util.ArrayList;
+
 public class SortFunc {
 
 	public static void main(String[] args) {
@@ -11,6 +13,21 @@ public class SortFunc {
 			System.out.println(array[i]);
 		}
 		
+		
+		// JDK1.5+
+		for (int i : array) {
+			System.out.println(i);
+		}
+		
+		ArrayList<String> list = new ArrayList<>();
+		list.add("a");
+		list.add("b");
+		list.add("c");
+		list.add("d");
+		list.add("e");
+		for (String string : list) {
+			System.out.println(string);
+		}
 		
 	}
 	

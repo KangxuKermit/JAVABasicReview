@@ -8,6 +8,9 @@ public class CollectionDemo {
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
 
+		
+		// Collection 为 interface 不能new 需要父类引用指向子类对象
+		
 //		arraylistDemo();
 
 //		addDemo();
@@ -54,6 +57,7 @@ public class CollectionDemo {
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void arraylistDemo() {
+		
 		Collection c = new ArrayList();
 		boolean b1 = c.add("abc");	// add方法，如果是List方法一直返回true，如果是Set集合，当存储重复元素的时候就会返回false
 		boolean b2 = c.add(true);	// 自动装箱 new Boolean(true);
