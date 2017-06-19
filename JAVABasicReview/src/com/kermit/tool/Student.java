@@ -17,11 +17,13 @@ public class Student extends Person {
 		Student s = (Student)obj;
 		return this.getName().equals(s.getName());
 	}
+
+//	@Override
+//	public String toString() {
+//		return "name = " + getName() + " ... age = " + getAge();
+//	}
 	
-	@Override
-	public String toString() {
-		return "name = " + getName() + " ... age = " + getAge();
-	}
+	
 	
 	
 	

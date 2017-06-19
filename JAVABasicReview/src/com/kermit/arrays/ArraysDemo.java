@@ -1,8 +1,8 @@
-package com.kermit.array;
+package com.kermit.arrays;
 
 import java.util.Arrays;
 
-public class ArrayAPI {
+public class ArraysDemo {
 
 	public static void main(String[] args) {
 

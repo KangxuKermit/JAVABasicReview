@@ -68,7 +68,7 @@ public class StringDemo {
 		String s3 = "qwer";
 		System.out.println(s2.toLowerCase());
 		System.out.println(s3.toUpperCase());
-		System.out.println(s2.concat(s3));
+		System.out.println(s2.concat(s3));		// 拼接
 		
 		System.out.println(s2.replace('A', 'x'));
 		System.out.println(s2.replace("AB", "xx"));
