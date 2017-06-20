@@ -53,9 +53,7 @@ class ComparaByLen implements Comparator<String> {
 		int num = o1.length() - o2.length();
 		return num == 0 ? o1.compareTo(o2) : num;
 	}
-	
-	
-	
+
 }
 
 

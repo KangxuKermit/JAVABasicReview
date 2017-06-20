@@ -9,7 +9,6 @@ public class AsList {
 	public static void main(String[] args) {
 
 		// 数组转集合，不能增加和减少元素，但是可以用集合的思想操作数组
-		
 		String[] arr = {"a","b","c","d"};
 		List<String> list = Arrays.asList(arr);	// 数组转集合
 		System.out.println(list);		// [a, b, c, d]

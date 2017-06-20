@@ -32,7 +32,7 @@ public class HashSetDemo {
 		}
 		for (Character ch : hs) {
 			System.out.print(ch);
-		}
+		} 
 	}
 
 	public static void test1() {
