@@ -1,0 +1,4 @@
+lalala
+ok
+test
+这是一串中文字符串
