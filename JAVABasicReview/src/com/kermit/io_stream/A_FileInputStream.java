@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class AFileInputStream {
+public class A_FileInputStream {
 
 	public static void main(String[] args) throws IOException {
 
@@ -19,7 +19,7 @@ public class AFileInputStream {
 		
 		
 	}
-
+	
 	public static void read() throws FileNotFoundException, IOException {
 		FileInputStream fis = new FileInputStream("xxx.txt");	// 创建流对象
 		/**

@@ -10,7 +10,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class ETryFinally {
+public class E_TryFinally {
 
 	
 	public static void main(String[] args) throws IOException {

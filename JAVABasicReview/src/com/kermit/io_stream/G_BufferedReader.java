@@ -10,7 +10,7 @@ import java.io.LineNumberReader;
 import java.util.ArrayList;
 
 
-public class GBufferedReader {
+public class G_BufferedReader {
 
 	public static void main(String[] args) throws IOException {
 

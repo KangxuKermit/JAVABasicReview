@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class CFileCopy {
+public class C_FileCopy {
 
 	public static void main(String[] args) throws IOException {
 

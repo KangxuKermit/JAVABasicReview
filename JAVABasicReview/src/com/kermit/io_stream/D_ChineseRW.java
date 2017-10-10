@@ -1,6 +1,6 @@
 package com.kermit.io_stream;
 
-public class DChineseRW {
+public class D_ChineseRW {
 
 	public static void main(String[] args) {
 

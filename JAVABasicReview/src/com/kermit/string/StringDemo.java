@@ -2,6 +2,7 @@ package com.kermit.string;
 
 public class StringDemo {
 
+	
 	public static void main(String[] args) {
 
 //		demo();
@@ -25,12 +26,41 @@ public class StringDemo {
 //		test1();
 		
 		
-
+		/* *
+		 * 判断功能：首尾中空加判断
+		 * 		startsWith();
+		 * 		endsWith();
+		 * 		contains();
+		 * 		isEmpty();
+		 * 		equals();
+		 * 		equealIgnoreCase();
+		 * 
+		 * 获取功能：截长取位取元素
+		 * 		substring();
+		 * 		length();
+		 * 		indexOf();
+		 * 		lastIndexOf();
+		 * 		charAt();
+		 * 
+		 * 转换功能：大小拼串转数组
+		 * 		toUpperCase();
+		 * 		toLowerCase();
+		 * 		concat();
+		 * 		toCharArrary();
+		 * 		getBytes();
+		 * 
+		 * 其他功能：除空切换字典排
+		 * 		trim();
+		 * 		split();
+		 * 		replace();
+		 * 		compareTo();	// 码表值比较
+		 * 		 
+		 * */ 
 		
 		
 		
 		
-	}
+	}	
 
 	private static void test1() {
 		String s = "this is a string TEST";
@@ -38,6 +68,7 @@ public class StringDemo {
 		System.out.println(ss);
 	}
 
+	// 业务类
 	private static void demo8() {
 		String s1 = "this is a string 嗯";
 		
@@ -52,6 +83,7 @@ public class StringDemo {
 			System.out.print(arr2[i] + " ");
 		}
 		System.out.println();
+		
 		
 		/**
 		 * String类的valueOf可以把任意类型转成字符串
@@ -80,10 +112,16 @@ public class StringDemo {
 		String s6 = "ABC";
 		System.out.println(s5.compareTo(s6));	// 码表值比较
 		System.out.println(s5.compareToIgnoreCase(s6));
-	
+		
+		String ss = "kermit#Kang#Xu";
+		String[] ssArr = ss.split("#");	// 切割
+		
+		ss.replace("#", "_");	// 替换
+		
 		
 	}
 
+	// 获取功能
 	private static void demo7() {
 		String s1 = ".12345678.56";
 		
@@ -108,6 +146,8 @@ public class StringDemo {
 		System.out.println(ss1);
 		String ss2 = s1.substring(3, 6);	// 从指定位置开始到指定位置结束，截取字符串
 		System.out.println(ss2);
+		
+		System.out.println(s1.charAt(4));	// 第x个位置的字符
 	}
 
 	private static void demo6() {

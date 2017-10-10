@@ -28,6 +28,7 @@ public class Person implements Comparable<Person> {
 		return age;
 	}
 
+	
 	protected void print() {
 		System.out.println("print");
 	}
